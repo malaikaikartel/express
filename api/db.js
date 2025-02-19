@@ -109,5 +109,5 @@ app.get('/search/date', (req, res) => {
 
 // Server
 app.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+  println(`Server running at http://localhost:${port}`);
 });
