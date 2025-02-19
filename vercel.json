@@ -1,1 +1,11 @@
-{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/api/dbjson" }] }
+{
+  "version": 2,
+  "functions": {
+    "api/dbjson.js": {
+      "runtime": "nodejs22.x"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/dbjson" }
+  ]
+}
