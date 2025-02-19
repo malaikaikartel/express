@@ -1,11 +1,11 @@
 {
   "version": 2,
   "functions": {
-    "api/dbjson.js": {
+    "api/bot.js": {
       "runtime": "nodejs22.x"
     }
   },
   "routes": [
-    { "src": "/(.*)", "dest": "/api/dbjson" }
+    { "src": "/(.*)", "dest": "/api/bot" }
   ]
 }
