@@ -5,7 +5,7 @@ const { nanoid } = require('nanoid');
 const app = express();
 const port = 3000;
 
-const DB_FILE = 'db.json';
+const DB_FILE = '/api/db.json';
 
 // Fungsi untuk membaca database JSON
 const readDB = () => {
