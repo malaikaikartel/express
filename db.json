@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "id": "5a-xzAp0s1uebdoLOT9zL",
+      "name": "Item 1",
+      "description": "Deskripsi item 1",
+      "createdAt": "2025-02-19T14:54:11.414Z"
+    },
+    {
+      "id": "JHm4VU7eoBoNA6QRMCHi9",
+      "name": "Item 2",
+      "description": "Deskripsi item 2",
+      "createdAt": "2025-02-19T14:55:28.689Z"
+    }
+  ]
+}
